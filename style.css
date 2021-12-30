@@ -1,0 +1,67 @@
+header{
+
+ font-size: 15px;
+}
+body{
+    background-image:url("./final/Screenshot\ \(29\).png");
+    color:white;
+}
+header>h1{
+    font-family:  'Arial Narrow Bold';
+    font-weight:400;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    margin:1rem 3rem;
+}
+nav{
+    position: relative;
+    top:0.5rem;
+    width:20rem;
+    justify-content:space-evenly ;
+    justify-content: baseline ;
+}
+ul{  font-size:20px;
+    list-style: none;
+    display:flex;
+    justify-content:space-evenly;
+   
+}
+.showcase{
+    margin :1rem;
+    width: 95vw;
+}
+article{
+ display:flex;
+ justify-content: space-evenly;
+
+
+}
+.container{
+    
+    width:40rem;
+font-size: 15px;
+font-family: sans-serif;
+margin:0 3rem;
+}
+.container>img{
+    width:20vw;
+}
+.container>h1{
+ position:relative;
+ left:1.5rem;
+
+}
+footer{
+background-color: black;
+color: white;
+
+display:flex;
+justify-content: center;
+
+}
+
+header>nav>ul>li>a{
+text-decoration: none;
+}
